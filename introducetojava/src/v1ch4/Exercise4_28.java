@@ -21,7 +21,7 @@ public class Exercise4_28 {
 
             // Get the start day for the next month
             firstDay = (firstDay + numberOfDaysInMonth) % 7;
-
+            //
             // Display Calendar title
             switch (month) {
                 case 1: System.out.print("January 1, " + year + " is ");
