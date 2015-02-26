@@ -41,3 +41,9 @@ public class Exercise4_38 {
     }
 
 }
+
+//    以1600为例子：
+//    value                   除数（value/16）    single（余数）         hexString = single + hexString;
+//    1600                    100                0                     0 + ""
+//    100                     6                  4                     40 + ""
+//    6                       0                  6                     640 + ""
