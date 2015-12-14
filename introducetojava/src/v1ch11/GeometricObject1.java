@@ -12,7 +12,7 @@ public class GeometricObject1 {
      * Construct a default geometric object
      */
     public GeometricObject1() {
-        dateCreated = new java.util.Date();
+        this.dateCreated = new java.util.Date();
     }
 
     /**
@@ -20,7 +20,7 @@ public class GeometricObject1 {
      * and filled value
      */
     public GeometricObject1(String color, boolean filled) {
-        dateCreated = new java.util.Date();
+        this.dateCreated = new java.util.Date();
         this.color = color;
         this.filled = filled;
     }
