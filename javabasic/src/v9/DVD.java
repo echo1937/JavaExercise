@@ -4,25 +4,22 @@ package v9;
  * Created by Eric on 1/12/2016.
  */
 public class DVD extends Item {
-    private String title;
     private String director;
-    private int playingTime;
-    private boolean gotIT;
-    private String comment;
 
     public DVD(String title, String director, int playingTime, String comment) {
-        this.title = title;
+        super(title, playingTime, false, comment);
         this.director = director;
-        this.playingTime = playingTime;
-        this.comment = comment;
     }
 
     public static void main(String[] args) {
-
+        DVD dvd = new DVD("a", "b", 1, "...");
+        dvd.print();
 
     }
 
     public void print() {
-        System.out.println("DVD:" + title + ":" + director);
+        System.out.print("DVD:");
+        super.print();
+        System.out.print(director);
     }
 }
