@@ -20,6 +20,6 @@ public class DVD extends Item {
     public void print() {
         System.out.print("DVD:");
         super.print();
-        System.out.print(director);
+        System.out.println(":" + director);
     }
 }
