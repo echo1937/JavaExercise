@@ -34,6 +34,8 @@ public class Database {
         db.add(new CD("abc", "abc", 4, 60, "..."));
         db.add(new CD("def", "def", 4, 60, "..."));
         db.add(new DVD("xxx", "aaa", 60, "..."));
+        db.add(new MP3("Welcome to New York ", "Taylor Swift",
+                212, true, 320, "I love this song -- eric"));
         db.list();
 
 
