@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Created by Eric on 1/24/2016.
  */
-public class Demo01 {
+public class demo01 {
     public static void main(String[] args) {
         int[] intArray = new int[101];
         Scanner input = new Scanner(System.in);
