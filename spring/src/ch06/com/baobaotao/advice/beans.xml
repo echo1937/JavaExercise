@@ -13,18 +13,18 @@
 
     <!--1. greetingAdvice -->
     <!--
-        bean id="waiter"
-        class="org.springframework.aop.framework.ProxyFactoryBean"
-        p:proxyInterfaces="Waiter" p:target-ref="target"
+        bean id="waiter" class="org.springframework.aop.framework.ProxyFactoryBean"
+        p:proxyInterfaces="Waiter"
+        p:target-ref="target"
         p:interceptorNames="greetingAdvice"/
     -->
 
 
     <!--2. before and after advice -->
     <!--
-        bean id="waiter"
-        class="org.springframework.aop.framework.ProxyFactoryBean"
-        p:proxyInterfaces="Waiter" p:target-ref="target"
+        bean id="waiter class="org.springframework.aop.framework.ProxyFactoryBean"
+        p:proxyInterfaces="Waiter"
+        p:target-ref="target"
         p:interceptorNames="greetingBefore,greetingAfter"/
     -->
     <!--3. around advice -->
