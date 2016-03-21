@@ -35,13 +35,4 @@
           p:interceptorNames="greetingAround"/>
           -->
 
-
-    <!--4. 异常抛出增强  -->
-    <bean id="forumServiceTarget" class="ch06.com.baobaotao.advice.ForumService"/>
-    <bean id="transactionManager" class="ch06.com.baobaotao.advice.TransactionManager"/>
-    <bean id="forumService" class="org.springframework.aop.framework.ProxyFactoryBean"
-          p:interceptorNames="transactionManager"
-          p:target-ref="forumServiceTarget"
-          p:proxyTargetClass="true"/>
-
 </beans>

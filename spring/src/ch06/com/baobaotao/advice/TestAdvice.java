@@ -3,7 +3,7 @@ package ch06.com.baobaotao.advice;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-public class TestAdvice1 {
+public class TestAdvice {
     public static void main(String[] args) {
         String configPath = "ch06/com/baobaotao/advice/beans.xml";
         ApplicationContext ctx = new ClassPathXmlApplicationContext(configPath);
