@@ -1,5 +1,8 @@
-package ch06.com.baobaotao.advice;
+package ch06.com.baobaotao.advice.test;
 
+import ch06.com.baobaotao.advice.GreetingBeforeAdvice;
+import ch06.com.baobaotao.advice.NaiveWaiter;
+import ch06.com.baobaotao.advice.Waiter;
 import org.springframework.aop.BeforeAdvice;
 import org.springframework.aop.framework.ProxyFactory;
 

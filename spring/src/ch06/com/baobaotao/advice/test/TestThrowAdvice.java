@@ -1,5 +1,7 @@
-package ch06.com.baobaotao.advice;
+package ch06.com.baobaotao.advice.test;
 
+import ch06.com.baobaotao.advice.Forum;
+import ch06.com.baobaotao.advice.ForumService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
