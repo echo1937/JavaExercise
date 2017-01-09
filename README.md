@@ -1,4 +1,4 @@
-MyJavaExercise
+JavaExercise
 ==============
 
 MyJavaExercise
